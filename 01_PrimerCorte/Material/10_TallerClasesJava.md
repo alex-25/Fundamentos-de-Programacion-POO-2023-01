@@ -77,3 +77,28 @@ public class Viajero {
 }
 
 ```
+## 2. GuerreroCamino.java
+
+```Java
+package guerrocamino;
+
+public class GuerroCamino {
+    
+    public static void main(String[] args) {
+        
+        System.out.println("Inicio App Guerrero del Camino");
+        
+        Viajero viajero1=new Viajero("Camilo Ernesto","Rodriguez Moreno","30045686","Cra 28 #45-3","1994/09/03");
+        Viajero viajero2=new Viajero("Diego Fernando","Rangel Perez","30045686","Cra 109 #45-3","200/05/15");
+        
+        System.out.println("Datos de los viajeros");        
+        System.out.println("Viajero1:");
+        System.out.println("Nombres:"+viajero1.getNombres());
+        System.out.println("Apellidos:"+viajero1.getApellidos());
+        System.out.println("Viajero2:");
+        System.out.println("Nombres:"+viajero2.getNombres());
+        System.out.println("Apellidos:"+viajero2.getApellidos());
+    }
+}
+
+```
